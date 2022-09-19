@@ -9,10 +9,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - "frontend.chitti.info"
-    secretName: frontend.chitti.info
+    - "k8s.damodardevops.click"
+    secretName: k8s.damodardevops.click
   rules:
-  - host: frontend.chitti.info
+  - host: k8s.damodardevops.click
     http:
       paths:
       - backend:
